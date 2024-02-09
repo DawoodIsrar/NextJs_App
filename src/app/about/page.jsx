@@ -1,9 +1,6 @@
-// import Image from "next/image";
-// import image1 from "./";
-
-function Home() {
+const AboutPage = () => {
   return (
-    <>
+    <div>
       <div className="homepage-wrapper">
         <div className="content">
           <h6>About Agency</h6>
@@ -19,10 +16,11 @@ function Home() {
           </p>
         </div>
         <div className="image">
-          <img src="https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ"></img>
+          <img src="https://fastly.picsum.photos/id/9/5000/3269.jpg?hmac=cZKbaLeduq7rNB8X-bigYO8bvPIWtT-mh8GRXtU3vPc"></img>
         </div>
       </div>
-    </>
+    </div>
   );
-}
-export default Home;
+};
+
+export default AboutPage;

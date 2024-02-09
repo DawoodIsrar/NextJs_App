@@ -1,0 +1,30 @@
+/* .container {
+  display: flex;
+  justifycontent: space-between;
+  alignitems: center;
+  paddinginline: 50px;
+} */
+.links {
+  display: flex;
+  justifycontent: space-around;
+  alignitems: center;
+  gap: 50px;
+}
+.btn {
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 25px;
+  border: none;
+  display: none;
+}
+
+@media (max-width: 780px) {
+  .btn {
+    display: block;
+  }
+  .links {
+    display: none !important;
+  }
+}
